@@ -7,7 +7,6 @@ import java.math.BigDecimal;
 public class Plane extends Vehicle {
     private final static String type = "PLANE";
 
-    @Basic
     @Column(name = "airline", length = 255)
     private String airline;
     @Column(name = "passenger_capacity", length = 11)

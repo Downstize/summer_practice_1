@@ -6,7 +6,6 @@ import java.math.BigDecimal;
 public class Car extends Vehicle {
     private final static String type = "CAR";
 
-    @Basic
     @Column(name = "seats", length = 11)
     private Integer seats;
 

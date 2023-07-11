@@ -19,6 +19,9 @@ public class Truck extends Vehicle {
         setLoadCapacityTruck(loadCapacity);
     }
 
+    public Long getIdTruck(){
+        return this.getId();
+    }
     public String getFuelTypeTruck(){
         return this.getFuelType();
     }
@@ -27,15 +30,11 @@ public class Truck extends Vehicle {
         return this.getModel();
     }
 
-    public Long getIdTruck(){
-        return this.getId();
-    }
-
     public BigDecimal getPriceTruck(){
         return this.getPrice();
     }
 
-    public Integer getLoadCapacityTruck () {
+    public Double getLoadCapacityTruck () {
         return this.getLoadCapacityTruck();
     }
 
